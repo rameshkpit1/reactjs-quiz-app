@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: rameshm1/quiz-app:52
+        image: rameshm1/quiz-app:54
         env:
         - name: VITE_REACT_APP_API_URL
           value: "http://anikacoffee.xyz/api/questions"
